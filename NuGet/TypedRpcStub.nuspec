@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>TypedRpc.Stub</id>
+    <version>1.0.0</version>
+    <title>TypedRpc.Stub</title>
+    <authors>Rodris</authors>
+    <owners>Rodris</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/Rodris/TypedRpc.Stub</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Stub functionality for the TypedRpc library.</description>
+    <tags>Json-Rpc .Net OWIN TypeScript TypedRpc YAML</tags>
+    <dependencies>
+      <dependency id="TypedRpc" version="1.2.1" />
+      <dependency id="Microsoft.Owin" version="3.0.1" />
+      <dependency id="Owin" version="1.0" />
+      <dependency id="YamlDotNet" version="4.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\bin\Release\TypedRpcStub.dll" target="lib\TypedRpcStub.dll" />
+  </files>
+</package>

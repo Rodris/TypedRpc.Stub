@@ -12,11 +12,26 @@ To install from NuGet, run the following command in the Package Manager Console:
 Install-Package TypedRpc.Stub
 ```
 
+In your Startup class, call the `MapTypedRpcStub` method.
+
+```C#
+using TypedRpcStub;
+
+public class Startup
+{
+    public void Configuration(IAppBuilder app)
+    {
+        //app.MapTypedRpc();
+        app.MapTypedRpcStub();
+    }
+}
+```
+
 ## Usage
 
 This library uses the yaml format to specify possible method calls and their returns.
 
-The stubs are defined in the file TypedRpc / TypedRpcStubs.yaml
+The stubs are defined in the file `TypedRpc/TypedRpcStubs.yaml`
 
 Changes to the yaml file take effect instantly. No need to restart the server.
 

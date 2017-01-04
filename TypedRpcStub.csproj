@@ -62,7 +62,11 @@
     <Compile Include="TypedRpcStubMiddleware.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="NuGet\TypedRpcStub.nuspec">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="packages.config" />
+    <None Include="README.md" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TypedRpc\TypedRpc.csproj">

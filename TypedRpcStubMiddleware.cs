@@ -128,43 +128,6 @@ namespace TypedRpcStub
                 }
             }
         }
-
-            
-        private void WriteStub()
-        {
-            /*var dir1 = System.AppDomain.CurrentDomain.RelativeSearchPath;
-            var dir2 = System.AppDomain.CurrentDomain.BaseDirectory;
-            string data2 = File.ReadAllText(dir2 + "\\TypedRpc\\TypedRpcStubs.yaml");
-            Directory.GetCurrentDirectory();
-            string data = @"- Name: class.method
-  Parameters:
-  - New User
-  Return: Hello, New User!
-- Name: class.method
-  Return: Hello, Guest!";
-
-            MethodStub[] sd = new Deserializer().Deserialize<MethodStub[]>(data);
-            */
-            MethodStub[] sds = new MethodStub[] {
-                //new MethodStub()
-                //{
-                //    Name = "class.method",
-                //    Parameters = new object[] { "New User" },
-                //    Return = "Hello, New User!"
-                //},
-                new MethodStub()
-                {
-                    Name = "class.method",
-                    Return = "Hello, Guest!",
-                    Error = new JsonError()
-                    {
-                        Code = 12,
-                        Message = "No erro"
-                    }
-                }
-            };
-            
-            var res = new Serializer().Serialize(sds);
-        }
+        
     }
 }

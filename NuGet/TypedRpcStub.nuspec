@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>TypedRpc.Stub</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>TypedRpc.Stub</title>
     <authors>Rodris</authors>
     <owners>Rodris</owners>
@@ -12,7 +12,7 @@
     <description>Stub functionality for the TypedRpc library.</description>
     <tags>Json-Rpc .Net OWIN TypeScript TypedRpc YAML</tags>
     <dependencies>
-      <dependency id="TypedRpc" version="1.2.1" />
+      <dependency id="TypedRpc" version="1.3.0" />
       <dependency id="Microsoft.Owin" version="3.0.1" />
       <dependency id="Owin" version="1.0" />
       <dependency id="YamlDotNet" version="4.0.0" />

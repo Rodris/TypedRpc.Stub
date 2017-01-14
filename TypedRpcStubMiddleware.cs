@@ -19,8 +19,8 @@ namespace TypedRpcStub
         private DateTime LastUpdateTime;
 
         // Constructor
-        public TypedRpcStubMiddleware(OwinMiddleware next)
-            : base(next)
+        public TypedRpcStubMiddleware(OwinMiddleware next, TypedRpcOptions options)
+            : base(next, options)
         {
             // Initializations
             Init();

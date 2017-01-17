@@ -2,7 +2,7 @@
 using TypedRpc;
 using TypedRpc.Client;
 
-namespace TypedRpcStub
+namespace TypedRpc.Stub
 {
     // Extensions
     public static class TypedRpcStubExtensions

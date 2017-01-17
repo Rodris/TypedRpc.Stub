@@ -7,13 +7,13 @@ using TypedRpc;
 using YamlDotNet.Serialization;
 using System.Reflection;
 
-namespace TypedRpcStub
+namespace TypedRpc.Stub
 {
     // Server main class.
     public class TypedRpcStubMiddleware : TypedRpcMiddleware
     {
         // Available methods stubs.
-        private MethodStub[] MethodStubs;
+        private MethodStub[] MethodStubs = new MethodStub[0];
 
         // Last time stubs were updated.
         private DateTime LastUpdateTime;

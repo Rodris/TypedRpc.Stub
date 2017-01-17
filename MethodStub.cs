@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TypedRpcStub
+namespace TypedRpc.Stub
 {
     /// <summary>
     /// Fake method used by middleware to handle RPCs.
